@@ -11,6 +11,11 @@
 		F91E95532BF963420085FE6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E95522BF963420085FE6E /* ContentView.swift */; };
 		F91E95552BF963430085FE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91E95542BF963430085FE6E /* Assets.xcassets */; };
 		F91E95592BF963430085FE6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91E95582BF963430085FE6E /* Preview Assets.xcassets */; };
+		F91E95632BF967E50085FE6E /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E95622BF967E50085FE6E /* NavigationBar.swift */; };
+		F91E95662BF96ED90085FE6E /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E95652BF96ED90085FE6E /* CarouselView.swift */; };
+		F91E95692BF971290085FE6E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E95682BF971290085FE6E /* Color.swift */; };
+		F91E956C2BF9737A0085FE6E /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E956B2BF9737A0085FE6E /* CarouselModel.swift */; };
+		F91E956F2BF9760C0085FE6E /* ShortsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E956E2BF9760C0085FE6E /* ShortsHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		F91E95542BF963430085FE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F91E95562BF963430085FE6E /* Youtube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Youtube.entitlements; sourceTree = "<group>"; };
 		F91E95582BF963430085FE6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F91E95622BF967E50085FE6E /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		F91E95652BF96ED90085FE6E /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		F91E95682BF971290085FE6E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F91E956B2BF9737A0085FE6E /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		F91E956E2BF9760C0085FE6E /* ShortsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortsHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +62,16 @@
 		F91E954F2BF963420085FE6E /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
-				F91E95502BF963420085FE6E /* YoutubeApp.swift */,
-				F91E95522BF963420085FE6E /* ContentView.swift */,
+				F91E956D2BF976010085FE6E /* ShortsHeader */,
+				F91E956A2BF9736C0085FE6E /* Model */,
+				F91E95602BF963BF0085FE6E /* App */,
+				F91E95612BF967D60085FE6E /* NavigationBar */,
+				F91E95642BF96EB80085FE6E /* Carousel View */,
+				F91E95672BF971100085FE6E /* Extension */,
+				F91E95572BF963430085FE6E /* Preview Content */,
+				F91E955F2BF9638D0085FE6E /* App */,
 				F91E95542BF963430085FE6E /* Assets.xcassets */,
 				F91E95562BF963430085FE6E /* Youtube.entitlements */,
-				F91E95572BF963430085FE6E /* Preview Content */,
 			);
 			path = Youtube;
 			sourceTree = "<group>";
@@ -67,6 +82,62 @@
 				F91E95582BF963430085FE6E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F91E955F2BF9638D0085FE6E /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F91E95602BF963BF0085FE6E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F91E95502BF963420085FE6E /* YoutubeApp.swift */,
+				F91E95522BF963420085FE6E /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F91E95612BF967D60085FE6E /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F91E95622BF967E50085FE6E /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		F91E95642BF96EB80085FE6E /* Carousel View */ = {
+			isa = PBXGroup;
+			children = (
+				F91E95652BF96ED90085FE6E /* CarouselView.swift */,
+			);
+			path = "Carousel View";
+			sourceTree = "<group>";
+		};
+		F91E95672BF971100085FE6E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F91E95682BF971290085FE6E /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F91E956A2BF9736C0085FE6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F91E956B2BF9737A0085FE6E /* CarouselModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F91E956D2BF976010085FE6E /* ShortsHeader */ = {
+			isa = PBXGroup;
+			children = (
+				F91E956E2BF9760C0085FE6E /* ShortsHeader.swift */,
+			);
+			path = ShortsHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +212,11 @@
 			files = (
 				F91E95532BF963420085FE6E /* ContentView.swift in Sources */,
 				F91E95512BF963420085FE6E /* YoutubeApp.swift in Sources */,
+				F91E95662BF96ED90085FE6E /* CarouselView.swift in Sources */,
+				F91E95692BF971290085FE6E /* Color.swift in Sources */,
+				F91E95632BF967E50085FE6E /* NavigationBar.swift in Sources */,
+				F91E956F2BF9760C0085FE6E /* ShortsHeader.swift in Sources */,
+				F91E956C2BF9737A0085FE6E /* CarouselModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8J5WK586H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -306,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Youtube/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8J5WK586H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

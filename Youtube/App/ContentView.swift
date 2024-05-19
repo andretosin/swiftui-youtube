@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-
             Color(hex: 0x0f0f0f).ignoresSafeArea()
             VStack(spacing: 16) {
                 NavigationBar()
                 CarouselView(model: carouselModel)
+                ShortsHeader()
                 Spacer()
             }
             .padding(.vertical, 16)
